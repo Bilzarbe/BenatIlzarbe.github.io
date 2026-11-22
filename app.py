@@ -36,9 +36,8 @@ with intro:
     html('<p class="eyebrow hero-eyebrow">INGENIERÍA EN INTELIGENCIA ARTIFICIAL</p>'
          '<h1>Beñat<br><em>Ilzarbe Daza.</em></h1>'
          '<p class="hero-intro">Estudiante de Ingeniería en Inteligencia Artificial en '
-         'Tecnun – Universidad de Navarra. Desarrollo proyectos de visión artificial, deep learning '
-         'y procesamiento de datos. En mis prácticas en BieleDigital trabajé en la detección '
-         'de defectos mediante deep learning.</p>')
+         'Tecnun – Universidad de Navarra. Soy una persona curiosa y constante, con ganas de '
+         'seguir aprendiendo, afrontar nuevos retos y aportar en equipo.</p>')
 with portrait:
     st.image(str(ROOT / "assets" / "benat.png"), width=250)
     html('<p class="portrait-caption">Beñat Ilzarbe Daza<br>Inteligencia artificial · Datos · Aprendizaje</p>')
@@ -63,10 +62,11 @@ if section == "Sobre mí":
         st.write("Estudio Ingeniería en Inteligencia Artificial desde 2024. Me interesan el machine learning, "
                  "el deep learning y el análisis de datos: entender el problema, probar distintas soluciones "
                  "y evaluar lo que funciona.")
-        st.write("En mis proyectos académicos he trabajado con clasificación de imágenes de cartas, "
-                 "clasificación de señales RFID y procesamiento distribuido de datos. En verano de 2026 "
-                 "realicé prácticas de ingeniería en BieleDigital SL, centradas en la detección de defectos "
-                 "mediante deep learning.")
+        st.write("Puedo trabajar con datos, desarrollar y evaluar modelos de inteligencia artificial "
+                 "y abordar problemas de visión artificial. Mi formación también me permite programar "
+                 "soluciones y trabajar con herramientas de procesamiento de datos.")
+        st.write("En verano de 2026 realicé prácticas de ingeniería en BieleDigital SL, centradas "
+                 "en la detección de defectos mediante deep learning.")
         st.write("Me definen la disciplina, la capacidad de aprender y el compromiso. Disfruto colaborando "
                  "con otras personas y aportando en entornos nuevos.")
     with right:
