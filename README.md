@@ -4,11 +4,13 @@
 
 Web personal desarrollada con Streamlit. Presenta mi formación en Ingeniería en Inteligencia Artificial, mis prácticas en BieleDigital centradas en la detección de defectos con deep learning y mi participación actual en Talento Deportivo.
 
+Incluye un selector de castellano e inglés que traduce la navegación y el contenido, conservando la sección seleccionada. El CV descargable es el documento original en castellano.
+
 ## Proyectos
 
 - **Playing Card Classification:** clasificación de imágenes de cartas mediante redes convolucionales y transfer learning.
 - **Chipless RFID Classification:** identificación de etiquetas RFID sin chip a partir de señales ruidosas mediante machine learning y deep learning.
-- **DonostIArrak:** procesamiento distribuido de correos ciudadanos sintéticos con Spark y Hadoop.
+- **DonostIArrak:** procesamiento distribuido de correos ciudadanos sintéticos con Spark y Hadoop. Con este proyecto participé en el concurso Donostia Open Minds.
 
 La sección de proyectos ofrece un resumen breve de cada trabajo y enlaces a los repositorios públicos.
 
