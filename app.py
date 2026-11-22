@@ -55,13 +55,15 @@ with portrait:
     subtitle = tr("Inteligencia artificial · Datos · Aprendizaje", "Artificial intelligence · Data · Learning")
     html(f'<p class="portrait-caption">Beñat Ilzarbe Daza<br>{escape(subtitle)}</p>')
 
-contact, github, download = st.columns(3)
+contact, linkedin, github, download = st.columns(4)
 with contact:
     st.link_button(tr("Hablemos por email", "Get in touch"), "mailto:bilzarbe06@gmail.com", width="stretch", type="primary")
+with linkedin:
+    st.link_button("LinkedIn", "https://www.linkedin.com/in/be%C3%B1at-ilzarbe-daza-6847aa411/", width="stretch")
 with github:
     st.link_button(tr("Ver mi GitHub", "View my GitHub"), "https://github.com/Bilzarbe", width="stretch")
 with download:
-    st.download_button(tr("Descargar CV en PDF", "Download CV (Spanish PDF)"),
+    st.download_button(tr("CV en PDF", "CV (Spanish PDF)"),
                        (ROOT / "assets" / "CV_Benat_Ilzarbe.pdf").read_bytes(),
                        file_name="CV_Benat_Ilzarbe.pdf", mime="application/pdf", width="stretch")
 
