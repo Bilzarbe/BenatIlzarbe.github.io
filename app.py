@@ -33,11 +33,10 @@ def tags(items):
 
 html('<div class="masthead"><span class="wordmark">BI.</span>'
      '<span>BEÑAT ILZARBE DAZA</span><span class="masthead-location">DONOSTIA / SAN SEBASTIÁN</span></div>')
-_, language_column = st.columns([2, 1])
-with language_column:
-    lang = st.radio("Idioma / Language", ["es", "en"],
-                    format_func=lambda value: {"es": "Castellano", "en": "English"}[value],
-                    key="language", horizontal=True, label_visibility="collapsed")
+with st.container(horizontal=True, horizontal_alignment="right", key="language-switcher"):
+    lang = st.segmented_control("Idioma / Language", ["es", "en"],
+                                format_func=str.upper, default="es", required=True,
+                                key="language", label_visibility="collapsed", width="content")
 
 intro, portrait = st.columns([3, 1], gap="large")
 with intro:
