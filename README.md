@@ -4,7 +4,7 @@
 
 Web personal desarrollada con Streamlit. Presenta mi formación en Ingeniería en Inteligencia Artificial, mis prácticas en BieleDigital centradas en la detección de defectos con deep learning y mi participación actual en Talento Deportivo.
 
-Incluye un selector de castellano e inglés que traduce la navegación y el contenido, conservando la sección seleccionada. El CV descargable es el documento original en castellano.
+Incluye un selector de castellano e inglés que traduce la navegación y el contenido, conservando la sección seleccionada. El CV descargable es una versión pública en castellano, sin teléfono ni fecha de nacimiento.
 
 ## Proyectos
 
@@ -41,6 +41,6 @@ Los cambios guardados en la rama `main` se despliegan desde Streamlit Community 
 - **Textos, proyectos y enlaces:** `app.py`.
 - **Colores y tipografía:** `assets/style.css` y `.streamlit/config.toml`.
 - **Foto:** `assets/benat.png`.
-- **CV descargable:** `assets/CV_Benat_Ilzarbe.pdf`.
+- **CV público descargable:** `assets/CV_Benat_Ilzarbe_Publico.pdf`.
 
-El PDF descargable conserva el contenido del documento original facilitado por Beñat. Los textos de la web se mantienen de forma independiente en `app.py`.
+El PDF original se ha retirado del historial de Git. Su ruta está excluida en `.gitignore` para evitar volver a publicarlo por accidente. Los textos de la web se mantienen de forma independiente en `app.py`.
