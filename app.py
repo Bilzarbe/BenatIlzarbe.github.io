@@ -151,6 +151,19 @@ elif section == "projects":
             tr("Una selección de mis trabajos académicos y su enfoque.", "A selection of my academic projects and their focus."))
     projects = [
         {
+            "area": tr("BASES DE DATOS / ANÁLISIS", "DATABASES / ANALYTICS"),
+            "name": "Olist E-Commerce",
+            "description": tr(
+                "Análisis de datos de comercio electrónico mediante una base de datos relacional. El proyecto se centra en "
+                "organizar y depurar los datos, analizarlos con SQL y explorar los resultados en un panel interactivo.",
+                "E-commerce data analysis using a relational database. The project focuses on organising and cleaning data, "
+                "analysing it with SQL and exploring the results through an interactive dashboard.",
+            ),
+            "tags": ["PostgreSQL", "SQL", "Python", "Streamlit", "Plotly"],
+            "url": "https://github.com/Bilzarbe/Olist-E-Commerce---Project",
+            "button": tr("Ver Olist en GitHub", "View Olist on GitHub"),
+        },
+        {
             "area": tr("VISIÓN ARTIFICIAL", "COMPUTER VISION"),
             "name": "Playing Card Classification",
             "description": tr(
