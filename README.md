@@ -1,6 +1,10 @@
-# Beñat Ilzarbe · CV y portfolio
+# Beñat Ilzarbe Daza · CV y portfolio de inteligencia artificial
 
-[Abrir la web](https://benatilzarbe.streamlit.app/)
+[Beñat Ilzarbe — CV y portfolio](https://benatilzarbe.streamlit.app/)
+
+[Portada pública de Beñat Ilzarbe / Benat Ilzarbe](https://bilzarbe.github.io/BenatIlzarbe.github.io/)
+
+Portfolio personal de **Beñat Ilzarbe Daza (Benat Ilzarbe)**, estudiante de Ingeniería en Inteligencia Artificial en Tecnun – Universidad de Navarra, en Donostia / San Sebastián.
 
 Web personal desarrollada con Streamlit. Presenta mi formación en Ingeniería en Inteligencia Artificial, mis prácticas en BieleDigital centradas en la detección de defectos con deep learning y mi participación actual en Talento Deportivo.
 
@@ -8,6 +12,7 @@ Incluye un selector de castellano e inglés que traduce la navegación y el cont
 
 ## Proyectos
 
+- **Olist E-Commerce:** organización y depuración de datos de comercio electrónico, análisis con SQL y panel interactivo con PostgreSQL, Python y Streamlit.
 - **Playing Card Classification:** clasificación de imágenes de cartas mediante redes convolucionales y transfer learning.
 - **Chipless RFID Classification:** identificación de etiquetas RFID sin chip a partir de señales ruidosas mediante machine learning y deep learning.
 - **DonostIArrak:** procesamiento distribuido de correos ciudadanos sintéticos con Spark y Hadoop. Con este proyecto participé en el concurso Donostia Open Minds.
@@ -35,6 +40,8 @@ La aplicación está conectada a Streamlit Community Cloud con esta configuraci�
 - Subdominio: `benatilzarbe`
 
 Los cambios guardados en la rama `main` se despliegan desde Streamlit Community Cloud.
+
+La carpeta `docs/` contiene una portada estática para GitHub Pages, con descripción, datos estructurados del perfil y `sitemap.xml`. GitHub Pages publica desde `main` y `/docs`. Esta portada permite verificar su propia dirección en Google Search Console; esa verificación no verifica el subdominio de Streamlit.
 
 ## Personalizar
 

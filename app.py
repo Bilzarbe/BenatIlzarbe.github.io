@@ -8,7 +8,7 @@ import streamlit as st
 ROOT = Path(__file__).resolve().parent
 lang = st.session_state.get("language", "es")
 st.set_page_config(
-    page_title="Beñat Ilzarbe | " + ("Inteligencia Artificial" if lang == "es" else "Artificial Intelligence"),
+    page_title="Beñat Ilzarbe Daza | " + ("CV y portfolio de inteligencia artificial" if lang == "es" else "AI CV and portfolio"),
     page_icon="✳", layout="wide", initial_sidebar_state="collapsed",
 )
 st.html((ROOT / "assets" / "style.css").read_text(encoding="utf-8"))
@@ -250,4 +250,5 @@ closing_text = tr("Si quieres conocer mejor mi perfil o hablar sobre una oportun
                   "If you would like to learn more about my background or discuss an opportunity, feel free to get in touch.")
 html(f'<div class="closing"><p class="eyebrow">{tr("CONTACTO", "CONTACT")}</p><h2>{escape(closing)}</h2>'
      f'<p>{escape(closing_text)}</p><a href="mailto:bilzarbe06@gmail.com">bilzarbe06@gmail.com</a></div>'
-     '<footer>Beñat Ilzarbe Daza · Donostia / San Sebastián</footer>')
+     '<footer>Beñat Ilzarbe Daza · Donostia / San Sebastián<br>'
+     '<a href="https://bilzarbe.github.io/BenatIlzarbe.github.io/">Benat Ilzarbe · CV y portfolio</a></footer>')
